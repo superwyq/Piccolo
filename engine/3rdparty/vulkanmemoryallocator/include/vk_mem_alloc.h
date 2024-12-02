@@ -129,7 +129,7 @@ extern "C" {
 #ifndef VULKAN_H_
     #include <vulkan/vulkan.h>
 #endif
-
+#include <stdio.h>
 // Define this macro to declare maximum supported Vulkan version in format AAABBBCCC,
 // where AAA = major, BBB = minor, CCC = patch.
 // If you want to use version > 1.0, it still needs to be enabled via VmaAllocatorCreateInfo::vulkanApiVersion.
